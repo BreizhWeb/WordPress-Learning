@@ -1,0 +1,12 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /LesSites/SIO1_2018_2019/PortailTHL/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /LesSites/SIO1_2018_2019/PortailTHL/index.php [L]
+</IfModule>
+
+# END WordPress
